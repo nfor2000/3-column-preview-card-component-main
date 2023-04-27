@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Web capture_27-4-2023_111253_](https://user-images.githubusercontent.com/124421807/234840188-eefb9cdf-7c09-4a83-a015-2d284c520658.jpeg)
 
-
+![Web capture_27-4-2023_112018_](https://user-images.githubusercontent.com/124421807/234840232-f5d96179-3d09-4370-8ab1-7f17f3a7c2f1.jpeg)
 
 
 ### Links
