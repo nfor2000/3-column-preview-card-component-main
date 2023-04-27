@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 15px;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    padding: 40px;
+}
+.container{
+    max-width: 768px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.vehicle{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.vehicle:nth-child(1){
+    background: hsl(31, 77%, 52%);
+}
+.vehicle:nth-child(2) {
+    background: hsl(184, 100%, 22%);
+}
+.vehicle:nth-child(3) {
+    background: hsl(179, 100%, 13%);
+}
+.vehicle img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+.vehicle h1{
+    font-size: 35px;
+    font-family: 'Ubuntu';
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 20px;
+}
+.vehicle p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 80px;
+    font-size: 14px;
+}
+.learn-btn{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+.sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.lux {
+    color: hsl(179, 100%, 13%);
+}
+.learn-btn:hover{
+    background-color: transparent;
+    color:hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+@media screen and (max-width:412px){
+    main{
+        display: block;
+        padding:10vh 20px;
+    }
+    .container{
+        max-width: none;
+        grid-template-columns: 100%;
+    }
+    .vehicle:nth-child(1) {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .vehicle:nth-child(3) {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .vehicle h1{
+        font-size: 40px;
+    }
+    .vehicle p{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+}
